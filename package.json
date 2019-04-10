@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate-react-ts",
+  "version": "0.0.1",
+  "description": "Boilerplate app for react typescript apps running on heroku",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --open",
+    "start": "http-server ./public"
+  },
+  "author": "rodders1991",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "@types/react": "^16.8.8",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
